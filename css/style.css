@@ -618,7 +618,6 @@ section.promo__dedicate > hr{
     bottom: 0;
     left: 0;
     z-index: 30;
-    margin: 30px 30px 0px 0px;
 }
 .timer{
     display: flex;
