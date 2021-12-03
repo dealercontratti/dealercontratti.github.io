@@ -56,8 +56,12 @@ table {
 }
 /* Color variables */
 /* commons */
-html,header, body, main, footer{
+html{
     overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+header, body, main, footer{
     margin: 0;
     padding: 0;
 }
