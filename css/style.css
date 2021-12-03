@@ -42,11 +42,6 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-html{
-    overflow-x: hidden;
-    margin: 0;
-    padding: 0;
-}
 /* css reset ^^^ */
 /* Color variables */
 :root{
@@ -129,9 +124,8 @@ footer{
 }
 /* commons */
 .wrapper{
-    width: 100%;
     min-height: 100%;
-    overflow-x: hidden;
+    overflow: hidden;
     margin: 0;
     padding: 0;
 }
@@ -615,6 +609,8 @@ section.promo__dedicate > hr{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-self: center;
+    align-items: center;
     bottom: 0;
     left: 0;
     z-index: 30;
