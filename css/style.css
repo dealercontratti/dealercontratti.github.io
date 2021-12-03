@@ -57,10 +57,10 @@ table {
 /* Color variables */
 /* commons */
 html{
+    width: 100%;
     overflow-x: hidden;
     margin: 0;
     padding: 0;
-    min-width: 100%;
 }
 header{
     position: static;
