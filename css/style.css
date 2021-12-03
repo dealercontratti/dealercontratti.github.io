@@ -61,10 +61,6 @@ html{
     margin: 0;
     padding: 0;
 }
-header, body, main, footer{
-    margin: 0;
-    padding: 0;
-}
 header{
     position: static;
     background-color: var(--bgLight);
