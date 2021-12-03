@@ -57,7 +57,6 @@ table {
 /* Color variables */
 /* commons */
 html{
-    width: 100%;
     overflow-x: hidden;
     margin: 0;
     padding: 0;
@@ -111,7 +110,7 @@ form  label {
     margin: 0.5rem;
 }
 footer{
-    width: 100%;
+    width: 90%;
     height: auto;
     background: var(--bgdark);
     display: flex;
