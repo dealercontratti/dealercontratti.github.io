@@ -1263,7 +1263,7 @@ section.promo__dedicate > hr{
 .footer__up{
     margin: 0;
     padding: 0;
-    width: 100%;
+    width: 90%;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -1292,11 +1292,11 @@ section.promo__dedicate > hr{
 .footer__down{
     margin: 0;
     padding: 0;
-    width: 100%;
+    width: 90%;
     height: auto;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
 .fd__left{
@@ -1334,7 +1334,7 @@ section.promo__dedicate > hr{
 .social__media{
     margin: 15px 15px 0 0;
     padding: 0;
-    width: 100%;
+    width: 90%;
     display: flex;
     flex-wrap: nowrap;
     align-items: center;
