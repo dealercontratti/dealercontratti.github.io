@@ -60,6 +60,7 @@ html{
     overflow-x: hidden;
     margin: 0;
     padding: 0;
+    width: 100%;
 }
 header{
     position: static;
@@ -122,9 +123,10 @@ footer{
 /* commons */
 .wrapper{
     overflow-x: hidden;
+    min-height: 100%;
     margin: 0;
     padding: 0;
-    background-color: var(--bgDark);
+    background: var(--bgDark);
 }
 .__container{
     min-height: 100%;
