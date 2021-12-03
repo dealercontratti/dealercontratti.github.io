@@ -57,8 +57,7 @@ table {
 /* Color variables */
 /* commons */
 header, body, main, footer{
-    overflow-x:hidden;
-    min-height: 100%;
+    overflow-x: hidden;
     margin: 0;
     padding: 0;
 }
