@@ -16,7 +16,6 @@ time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;
     scroll-behavior: smooth;
 }
 /* HTML5 display-role reset for older browsers */
@@ -58,8 +57,7 @@ table {
 /* Color variables */
 /* commons */
 header, body, main, footer{
-    background-color: var(--bgdark);
-    min-width: 100%;
+    overflow-x:hidden;
     min-height: 100%;
     margin: 0;
     padding: 0;
@@ -122,15 +120,9 @@ footer{
     align-items: center;
     margin-bottom: 5rem;
 }
-html, body, main{
-    width: 100%;
-    overflow-x: hidden;
-    margin: 0;
-    padding: 0;
-}
 /* commons */
 .wrapper{
-    width: 100%;
+    min-height: 100%;
     overflow-x: hidden;
     margin: 0;
     padding: 0;
