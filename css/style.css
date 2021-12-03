@@ -111,7 +111,7 @@ footer{
 .wrapper{
     width: 100%;
     min-height: 100%;
-    overflow: hidden;
+    overflow-x: hidden;
     margin: 0;
     padding: 0;
 }
@@ -319,7 +319,7 @@ h4.knockout  {
     margin: 15px;
     transition: all .5s ease-in-out 0s;
 }
-.menu__link{
+.menu__link > a{
     text-decoration: none;
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
@@ -331,7 +331,7 @@ h4.knockout  {
     text-transform: uppercase;
     transition: all .5s ease-in-out 0s;
 }
-.menu__link:hover{
+.menu__link > a:hover{
     text-decoration: underline;
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
@@ -344,6 +344,20 @@ h4.knockout  {
     transform: translateY(5px);
     transition: all .5s ease-in-out 0s;
 }
+.menu__btn > a{
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 1.2rem;
+    color: var(--textLight);
+}
+.menu__btn > a:hover{
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 1.2rem;
+    color: var(--wind);
+}
 @media (max-width: 1200px) {
     .menu__list{
         display: flex;
@@ -352,7 +366,7 @@ h4.knockout  {
         margin: 10px;
         transition: all .5s ease-in-out 0s;
     }
-    .menu__link{
+    .menu__link > a{
         text-decoration: none;
         font-family: "Montserrat", sans-serif;
         font-weight: 500;
@@ -364,7 +378,7 @@ h4.knockout  {
         text-transform: uppercase;
         transition: all .5s ease-in-out 0s;
     }
-    .menu__link:hover{
+    .menu__link > a:hover{
         text-decoration: underline;
         font-family: "Montserrat", sans-serif;
         font-weight: 500;
@@ -378,26 +392,32 @@ h4.knockout  {
         transition: all .5s ease-in-out 0s;
     }
     .menu__btn{
-        text-decoration: none;
-        font-family: "Montserrat", sans-serif;
-        font-weight: 500;
-        font-size: 1.2rem;
         border-radius: 50px;
         margin: 0 auto;
     }
     .menu__btn:hover{
-        text-decoration: none;
-        font-family: "Montserrat", sans-serif;
-        font-weight: 500;
-        font-size: 1.2rem;
         background: var(--textLigt);
         color: var(--wind);
         border-radius: 50px;
         cursor: pointer;
         margin: 0 auto;
     }
+    .menu__btn > a{
+        text-decoration: none;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 500;
+        font-size: 1.2rem;
+        color: var(--textLight);
+    }
+    .menu__btn > a:hover{
+        text-decoration: none;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 500;
+        font-size: 1.2rem;
+        color: var(--wind);
+    }
 }
-@media (max-width: 900px){
+@media (max-width: 960px){
     .menu__burger{
         display: block;
         position: absolute;
@@ -482,8 +502,8 @@ h4.knockout  {
         position: relative;
         margin: 10px;
         top: 0;
-        left: -50%;
-        transform: translate(50% 50%);
+        left: -20%;
+        transform: translate(-50% -50%);
         
     }
 }
