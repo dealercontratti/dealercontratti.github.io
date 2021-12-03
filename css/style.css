@@ -344,18 +344,20 @@ h4.knockout  {
     transform: translateY(5px);
     transition: all .5s ease-in-out 0s;
 }
-.menu__btn  a{
+.menu__btn {
     text-decoration: none;
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
     font-size: 1.2rem;
-    color: var(--textLight);
+    background: var(--wind);
+    color: var(--textLigt);
 }
-.menu__btn  a:hover{
+.menu__btn:hover {
     text-decoration: none;
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
     font-size: 1.2rem;
+    background: var(--textLigt);
     color: var(--wind);
 }
 @media (max-width: 1200px) {
@@ -366,7 +368,7 @@ h4.knockout  {
         margin: 10px;
         transition: all .5s ease-in-out 0s;
     }
-    .menu__list  a{
+    .menu__link  a{
         text-decoration: none;
         font-family: "Montserrat", sans-serif;
         font-weight: 500;
@@ -378,7 +380,7 @@ h4.knockout  {
         text-transform: uppercase;
         transition: all .5s ease-in-out 0s;
     }
-    .menu__list  a:hover{
+    .menu__link  a:hover{
         text-decoration: underline;
         font-family: "Montserrat", sans-serif;
         font-weight: 500;
@@ -392,29 +394,25 @@ h4.knockout  {
         transition: all .5s ease-in-out 0s;
     }
     .menu__btn{
+        text-decoration: none;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 500;
+        font-size: 1.2rem;
+        background: var(--textLigt);
+        color: var(--wind);
         border-radius: 50px;
         margin: 0 auto;
     }
     .menu__btn:hover{
-        background: var(--textLigt);
+        text-decoration: none;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 500;
+        font-size: 1.2rem;
         color: var(--wind);
+        background: var(--textLigt);
         border-radius: 50px;
         cursor: pointer;
         margin: 0 auto;
-    }
-    .menu__btn  a{
-        text-decoration: none;
-        font-family: "Montserrat", sans-serif;
-        font-weight: 500;
-        font-size: 1.2rem;
-        color: var(--textLight);
-    }
-    .menu__btn  a:hover{
-        text-decoration: none;
-        font-family: "Montserrat", sans-serif;
-        font-weight: 500;
-        font-size: 1.2rem;
-        color: var(--wind);
     }
 }
 @media (max-width: 960px){
