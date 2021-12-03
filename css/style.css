@@ -319,7 +319,7 @@ h4.knockout  {
     margin: 15px;
     transition: all .5s ease-in-out 0s;
 }
-.menu__link > a{
+.menu__link  a{
     text-decoration: none;
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
@@ -331,7 +331,7 @@ h4.knockout  {
     text-transform: uppercase;
     transition: all .5s ease-in-out 0s;
 }
-.menu__link > a:hover{
+.menu__link  a:hover{
     text-decoration: underline;
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
@@ -344,14 +344,14 @@ h4.knockout  {
     transform: translateY(5px);
     transition: all .5s ease-in-out 0s;
 }
-.menu__btn > a{
+.menu__btn  a{
     text-decoration: none;
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
     font-size: 1.2rem;
     color: var(--textLight);
 }
-.menu__btn > a:hover{
+.menu__btn  a:hover{
     text-decoration: none;
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
@@ -366,7 +366,7 @@ h4.knockout  {
         margin: 10px;
         transition: all .5s ease-in-out 0s;
     }
-    .menu__link > a{
+    .menu__list  a{
         text-decoration: none;
         font-family: "Montserrat", sans-serif;
         font-weight: 500;
@@ -378,7 +378,7 @@ h4.knockout  {
         text-transform: uppercase;
         transition: all .5s ease-in-out 0s;
     }
-    .menu__link > a:hover{
+    .menu__list  a:hover{
         text-decoration: underline;
         font-family: "Montserrat", sans-serif;
         font-weight: 500;
@@ -402,14 +402,14 @@ h4.knockout  {
         cursor: pointer;
         margin: 0 auto;
     }
-    .menu__btn > a{
+    .menu__btn  a{
         text-decoration: none;
         font-family: "Montserrat", sans-serif;
         font-weight: 500;
         font-size: 1.2rem;
         color: var(--textLight);
     }
-    .menu__btn > a:hover{
+    .menu__btn  a:hover{
         text-decoration: none;
         font-family: "Montserrat", sans-serif;
         font-weight: 500;
