@@ -121,7 +121,6 @@ footer{
 }
 /* commons */
 .wrapper{
-    min-height: 100%;
     overflow-x: hidden;
     margin: 0;
     padding: 0;
