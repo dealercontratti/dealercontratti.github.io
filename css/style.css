@@ -398,8 +398,8 @@ h4.knockout  {
         font-family: "Montserrat", sans-serif;
         font-weight: 500;
         font-size: 1.2rem;
-        background: var(--textLigt);
-        color: var(--wind);
+        background: var(--wind);
+        color: var(--textLigt);
         border-radius: 50px;
         margin: 0 auto;
     }
@@ -496,13 +496,34 @@ h4.knockout  {
         overflow: hidden;
         transition: all .5s ease-in-out 0s;
     }
+
     .menu__btn{
         position: relative;
         margin: 10px;
         top: 0;
-        left: -20%;
+        left: -10%;
         transform: translate(-50% -50%);
-        
+    }
+    .menu__btn{
+        text-decoration: none;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 500;
+        font-size: 1.2rem;
+        background: var(--wind);
+        color: var(--textLigt);
+        border-radius: 50px;
+        margin: 0 auto;
+    }
+    .menu__btn:hover{
+        text-decoration: none;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 500;
+        font-size: 1.2rem;
+        color: var(--wind);
+        background: var(--textLigt);
+        border-radius: 50px;
+        cursor: pointer;
+        margin: 0 auto;
     }
 }
 @media (max-width: 500px){
@@ -724,7 +745,7 @@ section.promo__dedicate > hr{
     width: 100vw;
     height: 100vh;
     z-index: 50000;
-    background: rgba(0,0,0,0.3);
+    background:var(--transparetBlack);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -734,9 +755,8 @@ section.promo__dedicate > hr{
 }
 .modal {
     background: var(--bgLight);
-    width: auto;
-    min-width: 800px;
-    max-width: 100%;
+    width: 70%;
+    height: auto;
     padding: 0.5rem;
     border-radius: 20px;
     box-shadow: 2px 2px 6px 0px rgba(0,0,0,0.7);
@@ -751,33 +771,18 @@ section.promo__dedicate > hr{
 .modal_container.show {
     pointer-events: auto;
     opacity: 1;
-}
-.modal__head button{
-    position: absolute;
-    border-radius: 50px;
-    transform: translate(50% 50%);
-    margin: 0;
-    padding: 0;
-    top: 2.5%;
-    right: 22%;
-}
-.modal__head i{
-    margin: 0;
-    padding: 5px;
-}
-.modal__head i:hover{
-    color: var(--wind);
+    overflow-x: hidden;
 }
 .modal__midle{
-    width: 700px;
-    height: 240px;
+    width: auto;
+    height: auto;
     display: flex;
     font-display: row;
     flex-wrap: nowrap;
     align-items: center;
     justify-content: space-between;
     align-self: center;  
-    margin: 0 3rem;  
+    margin: 1rem;  
 }
 .modal__midle img{
     width: 300px;
@@ -785,15 +790,13 @@ section.promo__dedicate > hr{
     border-radius: 50%;
 }
 .midle__left{
-    width: 40%;
-    max-width: 40%;
+    width: 50%;
     height: auto;
-    margin: 2rem;
-    align-self: start;
+    text-align: center;
+    align-items: center;
 }
 .midle__right{
-    width: 60%;
-    margin: 2rem;
+    width: 50%;
     height: auto;
     text-align: center;
     align-items: center;
@@ -802,33 +805,30 @@ section.promo__dedicate > hr{
     font-family: "Montserrat" sans-serif;
     font-weight: 500;
     color: var(--textDark);
-    font-size: 2.5rem;
+    font-size: 2rem;
 }
 .midle__right p{
     font-family: "Montserrat" sans-serif;
     font-weight: 400;
     color: var(--textDark);
     font-size: 1.2rem;
-    text-align: justify;
+    text-align: left;
 }
 .modal__input__form{
-    padding: relative;
     background:var(--bgLight);
     border: none;
     border-radius: 20px;
-    margin: 0 3rem;
-    padding: 0;
-    width: 700px;
+    margin: 0 auto;
+    width: 80%;
     height: auto;
     display: flex;
     flex-direction: column;
-    text-align: left;
+    text-align: center;
 }
 .modal__inputs__general {
     display: flex;
     flex-direction: column;
     align-self: center;
-    margin: 20px;
 }
 .modal__inputs__general > input{
     background: var(--transparetBlack);
@@ -839,7 +839,7 @@ section.promo__dedicate > hr{
     font-family: "Montserrat" sans-serif;
     font-weight: 400;
     color: var(--textLigt);
-    font-size: 1rem;
+    font-size: 1.2rem;
     padding: 5px 15px;
     border-radius: 20px;
 }
@@ -852,7 +852,7 @@ section.promo__dedicate > hr{
     font-family: "Montserrat" sans-serif;
     font-weight: 400;
     color: var(--textDark);
-    font-size: 1rem;
+    font-size: 1.2rem;
 }
 .mi__info{
     font-family: "Montserrat" sans-serif;
@@ -866,6 +866,204 @@ section.promo__dedicate > hr{
     color: var(--textDark);
     font-size: 1.2rem;
     margin: 0.5rem;
+}
+@media (max-width: 1100px){
+    .modal__midle{
+        width: auto;
+        height: auto;
+        display: flex;
+        font-display: row;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: center;
+        align-self: center;  
+        margin: 0.3rem;  
+    }
+    .modal__midle img{
+        width: 200px;
+        border: none;
+        border-radius: 50%;
+    }
+    .midle__left{
+        width: 50%;
+        height: auto;
+        text-align: center;
+        align-items: center;
+    }
+    .midle__right{
+        width: 50%;
+        height: auto;
+        text-align: center;
+        align-items: center;
+    }
+    .midle__right h4{
+        font-family: "Montserrat" sans-serif;
+        font-weight: 500;
+        color: var(--textDark);
+        font-size: 1.3rem;
+    }
+    .midle__right p{
+        font-family: "Montserrat" sans-serif;
+        font-weight: 400;
+        color: var(--textDark);
+        font-size: 1rem;
+        text-align: left;
+    }
+    .modal__input__form{
+        background:var(--bgLight);
+        border: none;
+        border-radius: 20px;
+        margin: 0 auto;
+        width: 80%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .modal__inputs__general {
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+    }
+    .modal__inputs__general > input{
+        background: var(--transparetBlack);
+        height: 2rem;
+        border: none;
+        border-bottom: 2px solid var(--textLigt);
+        outline: none;
+        font-family: "Montserrat" sans-serif;
+        font-weight: 400;
+        color: var(--textLigt);
+        font-size: 1rem;
+        padding: 5px 15px;
+        border-radius: 20px;
+    }
+    .modal__inputs__general > input :focus{
+        background: var(--bgdark);
+        height: 2rem;
+        border: none;
+        border-bottom: 2px solid var(--textDark);
+        outline: none;
+        font-family: "Montserrat" sans-serif;
+        font-weight: 400;
+        color: var(--textDark);
+        font-size: 1rem;
+    }
+    .mi__info{
+        font-family: "Montserrat" sans-serif;
+        font-weight: 400;
+        color: var(--textDark);
+        text-decoration: underline;
+    }
+    .modal__input__form  label {
+        font-family: "Montserrat" sans-serif;
+        font-weight: 500;
+        color: var(--textDark);
+        font-size: 1rem;
+        margin: 10px;
+    }
+}
+@media (max-width: 600px){
+    .modal {
+        background: var(--bgLight);
+        width: 100%;
+        height: 100%;
+        padding: 0.2rem;
+        border-radius: 0;
+        box-shadow: 2px 2px 6px 0px rgba(0,0,0,0.7);
+    }
+    .modal__midle{
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: center;
+        align-self: center;   
+    }
+    .modal__midle img{
+        width: 200px;
+        border: none;
+        border-radius: 50%;
+        margin-top: 10px;
+    }
+    .midle__left{
+        display: none;
+    }
+    .midle__right{
+        width: 100%;
+        height: auto;
+        text-align: center;
+        align-items: center;
+        margin: 5px;
+    }
+    .midle__right h4{
+        font-family: "Montserrat" sans-serif;
+        font-weight: 500;
+        color: var(--textDark);
+        font-size: 1.5rem;
+        margin-bottom: 5px;
+    }
+    .midle__right p{
+        font-family: "Montserrat" sans-serif;
+        font-weight: 400;
+        color: var(--textDark);
+        font-size: 1.1rem;
+        text-align: center;
+    }
+    .modal__input__form{
+        background:var(--bgLight);
+        border: none;
+        border-radius: 0;
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+    .modal__inputs__general {
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+    }
+    .modal__inputs__general > input{
+        background: var(--transparetBlack);
+        height: 2rem;
+        border: none;
+        border-bottom: 2px solid var(--textLigt);
+        outline: none;
+        font-family: "Montserrat" sans-serif;
+        font-weight: 400;
+        color: var(--textLigt);
+        font-size: 1rem;
+        border-radius: 20px;
+    }
+    .modal__inputs__general > input :focus{
+        background: var(--bgdark);
+        height: 2rem;
+        border: none;
+        border-bottom: 2px solid var(--textDark);
+        outline: none;
+        font-family: "Montserrat" sans-serif;
+        font-weight: 400;
+        color: var(--textDark);
+        font-size: 1rem;
+    }
+    .mi__info{
+        font-family: "Montserrat" sans-serif;
+        font-weight: 400;
+        color: var(--textDark);
+        text-decoration: underline;
+    }
+    .modal__input__form  label {
+        font-family: "Montserrat" sans-serif;
+        font-weight: 400;
+        color: var(--textDark);
+        font-size: 1rem;
+    }
 }
 .input__form{
     position: relative;
@@ -911,7 +1109,7 @@ section.promo__dedicate > hr{
 }
 .button__container {
     text-align: right;
-    margin: 20px;
+    margin: 10px;
 }
 .container{
     display: flex;

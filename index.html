@@ -55,7 +55,7 @@
                     </div>
                     <div class="img__cont"><img class="businessman" src="/img/businessman.png" alt="Missing businessman.png!"></div>
                     <div class="input__form">
-                        <form action="#" method="get">
+                        <form action="post" method="get">
                             <h2 class="main__heading">COMPILA IL FORM</h2>
                             <h3>TI RICHIAMERÒ PER UNA CONSULENZA GRATUITA!</h3>
                             <div class="inputs__general">
@@ -63,16 +63,16 @@
                                 <input type="text" name="fname__lname">
                             </div>
                             <div class="inputs__general">
-                                <label for="lname">Telefono*</label>
-                                <input type="tel" id="tel" name="tel">
+                                <label for="tel">Telefono*</label>
+                                <input type="tel" id="tel" name="tel" required>
                             </div>
                             <div class="inputs__general">
-                            <label for="lname">Email</label>
-                            <input type="text" id="email" name="mail">
+                                <label for="email">Email</label>
+                                <input type="text" id="email" name="mail">
                             </div>
                             <div class="inputs__general">
                                 <label>
-                                    <input type="checkbox">
+                                    <input type="checkbox" required>
                                     Dichiaro di aver preso visione dell'informativa sul <span class="i__info">trattamento dei dati personali ai sensi dell'art. 13 del Regolamento (UE) 2016/679</span> ed autorizzo Wind Tre al trattamento dei miei dati personali per le finalità ivi indicate.
                                     <span class="checkmark"></span>
                                 </label>
@@ -133,8 +133,7 @@
             <div class="modal_container" id="modal_container">
                 <div class="modal">
                     <div class="modal__head">
-                        <img class="logo" src="/img/icons/WINDTRE_BUSINESS_PARTNER_RGB.png" alt="">
-                        <button id="close"><i class="material-icons md-40">close</i></button>
+                        <img class="logo" src="/img/icons/WINDTRE_BUSINESS_PARTNER_RGB.png" alt="Missing img in modal__head">
                     </div>
                     <div class="modal__midle">
                         <div class="midle__left"><img class="consultant" src="/img/operatrice.jpg" alt="Missing callmeback1.png!"></div>
@@ -146,17 +145,18 @@
                     <div class="modal__input__form">
                         <form action="#" method="get">
                             <div class="modal__inputs__general">
-                                <label for="lname">Telefono*</label>
-                                <input type="tel" id="tel" name="tel">
+                                <label for="tel1">Telefono*</label>
+                                <input type="tel" id="tel1" name="tel" required>
                             </div>
                             <div class="modal__inputs__general">
                                 <label>
-                                    <input type="checkbox">
+                                    <input type="checkbox" required>
                                     Dichiaro di aver preso visione dell'informativa sul <span class="mi__info">trattamento dei dati personali ai sensi dell'art. 13 del Regolamento (UE) 2016/679</span> ed autorizzo Wind Tre al trattamento dei miei dati personali per le finalità ivi indicate.
                                     <span class="checkmark"></span>
                                 </label>
                             </div>
                             <div class="button__container">
+                                <button id="close">Chiudi</button>
                                 <button>INVIA !</button>
                             </div>
                         </form>
