@@ -58,8 +58,6 @@ table {
 /* commons */
 header, body, main, footer{
     overflow-x: hidden;
-    margin: 0;
-    padding: 0;
 }
 header{
     position: static;
