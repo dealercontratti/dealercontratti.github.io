@@ -60,6 +60,7 @@ html{
     overflow-x: hidden;
     margin: 0;
     padding: 0;
+    min-width: 100%;
 }
 header{
     position: static;
@@ -115,9 +116,8 @@ footer{
     background: var(--bgdark);
     display: flex;
     flex-direction: column;
-    padding: 3rem;
     align-items: center;
-    margin-bottom: 4.8rem;
+    margin-bottom: 4em;
 }
 /* commons */
 .wrapper{
