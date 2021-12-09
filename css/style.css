@@ -119,8 +119,8 @@ footer{
 }
 /* commons */
 .wrapper{
-    overflow: hidden;
-    margin: 0;
+    overflow-x: hidden;
+    margin: 0 auto;
     padding: 0;
 }
 .outshape{
