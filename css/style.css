@@ -125,6 +125,7 @@ footer{
     overflow-x: hidden;
     margin: 0 auto;
     padding: 0;
+    white-space-collapse: discard;
 }
 .outshape{
     display: flex;
