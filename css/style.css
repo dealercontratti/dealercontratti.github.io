@@ -57,8 +57,6 @@ table {
 /* Color variables */
 /* commons */
 html{
-    width: 100%;
-    min-height: 100%;
     overflow-x: hidden;
     margin: 0;
     padding: 0;
@@ -122,6 +120,8 @@ footer{
 /* commons */
 .wrapper{
     overflow-x: hidden;
+    width: 100%;
+    min-height: 100%;
     margin: 0;
     padding: 0;
 }
