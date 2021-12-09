@@ -63,6 +63,7 @@ html{
     padding: 0;
     text-rendering: optimizespeed;
     display: inline-block;
+    white-space-collapse: discard;
 }
 header{
     position: static;
