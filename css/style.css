@@ -57,6 +57,7 @@ table {
 /* Color variables */
 /* commons */
 html{
+    width: 100%;
     min-height: 100%;
     overflow-x: hidden;
     margin: 0;
