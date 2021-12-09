@@ -123,10 +123,6 @@ footer{
     margin: 0;
     padding: 0;
 }
-.__container{
-    min-height: 100%;
-    margin: 0 auto;
-}
 .outshape{
     display: flex;
     flex-direction: column;
